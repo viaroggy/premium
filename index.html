@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Мотивационная программа</title>
+</head>
+
+<body>
+    
+
+    <div class="container">
+
+    <h1>Специалист личной поддержки</h1>
+
+    <div class="calculators-inputs">
+        <div class="inputs">
+            <label for="hourlyRate">AHT: </label>
+            <input type="number" id="hourlyRate" class="hourly-rate" placeholder="AHT" title="Введи AHT">
+            <label id="nameOf">сек</label>
+        </div>
+
+        <div class="inputs">
+            <label for="hoursPerDay">KO:</label>
+            <input type="number" id="hoursPerDay" class="hourly-rate" placeholder="КО">
+            <label id="nameOf">%</label>
+        </div>
+<!--
+        <div class="inputs">
+            <label for="daysPerWeek">Предл: </label>
+            <input type="number" id="daysPerWeek" class="hourly-rate" placeholder="Предл">
+            <label id="nameOf">%</label>
+        </div>
+
+        <div class="inputs">
+            <label for="campaign">СМ: </label>
+            <input type="number" id="campaign" class="hourly-rate" placeholder="СМ">
+            <label id="nameOf">%</label>
+        </div>
+-->
+        <div class="inputs">
+            <label for="gi">GI: </label>
+            <input type="number" id="gi" class="hourly-rate" placeholder="GI">
+            <label id="nameOf">%</label>
+        </div>
+
+        <div class="inputs">
+            <label for="csi">CSI: </label>
+            <input type="number" id="csi" class="hourly-rate" placeholder="CSI">
+            <label id="nameOf">%</label>
+        </div>
+
+        <div class="inputs">
+            <label for="adherence">Собл: </label>
+            <input type="number" id="adherence" class="hourly-rate" placeholder="Собл">
+            <label id="nameOf">%</label>
+        </div>
+
+        <div class="inputs">
+            <label for="salary">Оклад: </label>
+            <input type="number" id="salary" class="hourly-rate" placeholder="Оклад">
+            <label id="nameOf">р</label>
+            
+        </div>
+
+    </div>
+
+
+
+    <div class="calculations">
+
+     <h2>Премия:</h2>
+            <p>AHT: <span id="hourlyAmount"></span>%</p>
+            <p>KO: <span id="dailyAmount"></span>%</p>
+          <!--   <p>Предл: <span id="weeklyAmount"></span>%</p>
+            <p>СМ:<span id="monthlyAmount"></span>%</p> -->
+            <p>GI: <span id="annualAmount"></span>%</p>
+            <p>CSI: <span id="csiAmount"></span>%</p>
+          <!--   <p>Собл: <span id="adherenceAmount"></span></p> -->
+          <p>Общая премия: <span id="premiumAmount"> </span>% <span id="category"> </span> </p>
+          <p>Зарпл: <span id="salaryAmount"></span>р</p>
+          <p>С налогами: <span id="withTaxes"></span>р</p>  
+    </div>
+
+
+    </div>
+    <!-- 
+        
+        <script src="main.js"></script> 
+    
+    <p>Премия: 55% Звезда <span id="hourlyAmount"></span> </p>
+            <p>До налогов: 45 578 р<span id="dailyAmount"></span></p>
+            <p>После налогов: 41 145 р <span id="weeklyAmount"></span></p>
+        
+        -->
+    <script src="calc.js"></script> 
+</body>
+</html>
