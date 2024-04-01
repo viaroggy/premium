@@ -126,3 +126,23 @@ input[type="range"]::-webkit-slider-thumb {
     left: 10px; 
 }
 
+@media (max-width: 600px) {
+    h1, h2 {
+       font-size: 16px; /* Меньший размер шрифта для заголовков */
+    }
+    .container {
+       width: auto; /* Автоматическая ширина, чтобы контейнер растягивался на всю ширину экрана */
+       padding: 10px; /* Уменьшенные отступы */
+       margin: 10px; /* Добавить немного отступа от краёв экрана */
+    }
+    .calculators-inputs .inputs .hourly-rate {
+       width: 30%; /* Инпуты на всю ширину */
+       max-width: 50px; /* Максимальная ширина инпутов */
+    }
+    .calculations {
+       font-size: 14px; /* Меньший размер шрифта для расчётов */
+    }
+    .calculations p, .calculations span {
+       font-size: 14px; /* Меньший размер шрифта для текста внутри .calculations */
+    }
+ }
