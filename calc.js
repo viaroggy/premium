@@ -412,7 +412,7 @@ withTaxes = zarplata * 0.87;
     document.getElementById('category').textContent = `${category}` 
     }
     if (!withTaxes == 0) {
-    document.getElementById('withTaxes').textContent = `${withTaxes.toFixed(2)}` 
+    document.getElementById('withTaxes').textContent = `${withTaxes.toFixed(0)}` 
     }
 
 
